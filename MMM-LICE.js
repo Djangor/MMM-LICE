@@ -35,7 +35,7 @@ Module.register("MMM-LICE", {
 
 
         //  Set locale.
-        this.url = "http://apilayer.net/api/live?access_key=" + this.config.accessKey + "&currencies=" + this.config.symbols + "&source=" + this.config.source + "&format=1";
+        this.url = "http://data.fixer.io/api/latest?access_key=" + this.config.accessKey + "&currencies=" + this.config.symbols  + "&format=1";
         this.LICE = {};
         this.scheduleUpdate();
     },
